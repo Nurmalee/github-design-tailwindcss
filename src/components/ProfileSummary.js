@@ -32,7 +32,7 @@ const ProfileSummary = () => {
 
             <p className='mb-4'>Fast paced front end developer with massive skills using REACT & CSS (and their relatives) for user interface and experience management</p>
 
-            <button className='bg-gray-800 sm:bg-gray-700 bg-opacity-50 sm:bg-opacity-70 border border-solid border-gray-100 border-opacity-20 rounded-md w-full p-1.5 text-sm mb-7 font-semibold'>Edit profile</button>
+            <button className='bg-gray-800 sm:bg-gray-700 bg-opacity-50 sm:bg-opacity-70 hover:bg-opacity-100 border border-solid border-gray-100 border-opacity-20 hover:border-opacity-70 rounded-md w-full p-1.5 text-sm mb-7 font-semibold transition duration-300'>Edit profile</button>
 
             <div className='text-sm text-gray-400 flex items-center'>
                 <span className='cursor-pointer flex items-center pr-1 hover:text-blue-400'>
