@@ -4,6 +4,7 @@
 
 .activeTab {
     color: #ccc;
+    font-weight: 500;
 }
 
 .tabsAfter::after, .activeTab::after {

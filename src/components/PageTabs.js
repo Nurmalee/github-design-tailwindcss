@@ -20,8 +20,14 @@ const PageTabs = () => {
                     if(tabIdx === traceIdx){
                         activeTab = 'activeTab'
                     }
+
                     return (
-                        <li key={tabIdx} className={activeTab + ' tabsAfter px-4 py-2.5 hover:text-gray-300'} onClick={() => monitorSetIdx(tabIdx)}>{tab}</li>
+                        <li 
+                            key={tabIdx} 
+                            className={activeTab + ' tabsAfter px-4 py-2.5 hover:text-gray-300'} 
+                            onClick={() => monitorSetIdx(tabIdx)}>{tab}  
+                            {tab === 'repositories' ? <span className='ml-4 p-0.5 px-2 text-xs rounded-xl bg-gray-800 sm:bg-gray-700'>14</span> : null}
+                        </li>
                     )
                 })}
             </ul>
