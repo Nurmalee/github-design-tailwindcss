@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../styles/pseudostyles.css'
 
-const tabs = ['overviews', 'repositories', 'projects', 'packages']
+const tabs = ['overview', 'repositories', 'projects', 'packages']
 
 const PageTabs = () => {
     const [traceIdx, setTraceIdx] = useState(0)
@@ -26,7 +26,7 @@ const PageTabs = () => {
                             key={tabIdx} 
                             className={activeTab + ' tabsAfter px-4 py-2.5 hover:text-gray-300'} 
                             onClick={() => monitorSetIdx(tabIdx)}>{tab}  
-                            {tab === 'repositories' ? <span className='ml-4 p-0.5 px-2 text-xs rounded-xl bg-gray-800 sm:bg-gray-700'>14</span> : null}
+                            {tab === 'repositories' ? <span className='ml-2 p-0.5 px-2 text-xs rounded-xl bg-gray-800 sm:bg-gray-700'>14</span> : null}
                         </li>
                     )
                 })}

@@ -3,7 +3,7 @@ import { MenuIcon, BellIcon } from '@heroicons/react/outline'
 
 const Header = () => {
     return (
-        <div className='flex justify-between items-center px-3 py-4 bg-gray-900' >
+        <div className='flex justify-between items-center px-3 py-4 bg-gray-800 bg-opacity-50 sm:bg-opacity-100' >
             <MenuIcon className='text-white h-7' />
             <GitHub className='text-white' style={{fontSize: '33'}} />
             <BellIcon className='text-white h-5' />
