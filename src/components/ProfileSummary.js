@@ -17,7 +17,7 @@ const ProfileSummary = () => {
 
     return (
         <div className='px-4 text-gray-200'>
-            <div className='flex items-center py-1 mb-7'>
+            <div className='flex items-center py-1 mb-6'>
                 <div className='w-2/12 border border-solid border-gray-700 rounded-full'>
                     <img  className='rounded-full' src={me} alt='my_avatar' />
                 </div>
@@ -28,11 +28,11 @@ const ProfileSummary = () => {
                 </div>
             </div>
 
-            <p className='flex items-center bg-transparent border border-solid border-gray-700 rounded-md text-xs mb-3 py-0.5 pb-1 px-2 cursor-pointer hover:text-blue-400'> <img src={dart} alt="dart" className='h-6 pr-1'/> Focusing</p>
+            <p className='flex items-center bg-transparent border border-solid border-gray-700 rounded-md text-xs mb-2.5 py-0.5 pb-1 px-2 cursor-pointer hover:text-blue-400'> <img src={dart} alt="dart" className='h-6 pr-1'/> Focusing</p>
 
             <p className='mb-4'>Fast-paced front end developer with massive skills using REACT & CSS (and their relatives) for user interface and experience management</p>
 
-            <button className='bg-gray-800 sm:bg-gray-700 bg-opacity-50 sm:bg-opacity-70 hover:bg-opacity-100 border border-solid border-gray-100 border-opacity-20 hover:border-opacity-70 rounded-md w-full p-1.5 text-sm mb-7 font-semibold transition duration-300'>Edit profile</button>
+            <button className='bg-gray-800 sm:bg-gray-700 bg-opacity-50 sm:bg-opacity-70 hover:bg-opacity-100 border border-solid border-gray-100 border-opacity-20 hover:border-opacity-70 rounded-md w-full p-1.5 text-sm mb-6 font-semibold transition duration-300'>Edit profile</button>
 
             <div className='text-sm text-gray-400 flex items-center'>
                 <span className='cursor-pointer flex items-center pr-1 hover:text-blue-400'>

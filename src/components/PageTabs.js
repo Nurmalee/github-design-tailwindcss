@@ -12,8 +12,8 @@ const PageTabs = () => {
     }
 
     return (
-        <div>
-            <ul className='flex items-center text-white capitalize text-sm px-4 text-gray-400 bg-gray-800 sm:bg-gray-700 bg-opacity-50 sm:bg-opacity-70 mt-10 cursor-pointer border border-t-0 border-l-0 border-r-0 border-solid border-gray-500'>
+        <div className='sticky top-0 left-0'>
+            <ul className='flex items-center text-white capitalize text-sm px-4 text-gray-400 bg-gray-800 sm:bg-gray-700 bg-opacity-50 sm:bg-opacity-70 mt-8 cursor-pointer border border-t-0 border-l-0 border-r-0 border-solid border-gray-500'>
                 {tabs.map((tab, tabIdx) => {
 
                     let activeTab = '';
